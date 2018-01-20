@@ -1,0 +1,320 @@
+[debug] [2018-01-17T08:50:32.572Z] ----------------------------------------------------------------------
+[debug] [2018-01-17T08:50:32.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-17T08:50:32.576Z] CLI Version:   3.16.0
+[debug] [2018-01-17T08:50:32.576Z] Platform:      win32
+[debug] [2018-01-17T08:50:32.576Z] Node Version:  v6.11.2
+[debug] [2018-01-17T08:50:32.576Z] Time:          Wed Jan 17 2018 14:20:32 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T08:50:32.576Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-17T08:50:32.591Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-17T08:50:32.592Z] > authorizing via signed-in user
+[debug] [2018-01-17T08:50:32.594Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Wed Jan 17 2018 14:20:32 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T08:50:34.442Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-17T08:50:34.443Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Wed Jan 17 2018 14:20:34 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T08:50:35.944Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-17T08:50:44.777Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Wed Jan 17 2018 14:20:44 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T08:50:44.777Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Wed Jan 17 2018 14:20:44 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T08:50:46.962Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-17T08:50:47.500Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-17T15:03:25.639Z] ----------------------------------------------------------------------
+[debug] [2018-01-17T15:03:25.642Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only hosting
+[debug] [2018-01-17T15:03:25.642Z] CLI Version:   3.16.0
+[debug] [2018-01-17T15:03:25.642Z] Platform:      win32
+[debug] [2018-01-17T15:03:25.642Z] Node Version:  v6.11.2
+[debug] [2018-01-17T15:03:25.643Z] Time:          Wed Jan 17 2018 20:33:25 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:25.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-17T15:03:25.657Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-17T15:03:25.658Z] > authorizing via signed-in user
+[debug] [2018-01-17T15:03:25.661Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-17T15:03:25.661Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/JmA3Yf13Emn-A4qLv82S5A8T0l6o5sD2gUwpuBxIvU0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jan 17 2018 20:33:25 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:26.148Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-17T15:03:26.177Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Wed Jan 17 2018 20:33:26 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:27.700Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-17T15:03:27.700Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Wed Jan 17 2018 20:33:27 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:28.791Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'rgcer-48afc'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-01-17T15:03:30.581Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/rgcer-48afc/uploads/-L33dMxwgKhLT_GHA3f1?fileCount=10&message=  
+  
+ Wed Jan 17 2018 20:33:30 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:33.358Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-17T15:03:33.359Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[info] +  hosting: 10 files uploaded successfully
+[debug] [2018-01-17T15:03:34.394Z] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/rgcer-48afc/releases  
+ { hosting: 
+   { public: 'public',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     rewrites: [ [Object] ],
+     version: '-L33dMxwgKhLT_GHA3f1',
+     prefix: '-L33dMxwgKhLT_GHA3f1/',
+     manifest: [] } } 
+ Wed Jan 17 2018 20:33:34 GMT+0530 (India Standard Time)
+[debug] [2018-01-17T15:03:35.816Z] <<< HTTP RESPONSE 200
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/rgcer-48afc/overview
+[info] Hosting URL: https://rgcer-48afc.firebaseapp.com
+[debug] [2018-01-18T05:45:53.109Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T05:45:53.113Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-18T05:45:53.113Z] CLI Version:   3.16.0
+[debug] [2018-01-18T05:45:53.114Z] Platform:      win32
+[debug] [2018-01-18T05:45:53.114Z] Node Version:  v6.11.2
+[debug] [2018-01-18T05:45:53.114Z] Time:          Thu Jan 18 2018 11:15:53 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:45:53.114Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T05:45:53.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T05:45:53.145Z] > authorizing via signed-in user
+[debug] [2018-01-18T05:45:53.148Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-18T05:45:53.149Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/JmA3Yf13Emn-A4qLv82S5A8T0l6o5sD2gUwpuBxIvU0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 18 2018 11:15:53 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:45:55.345Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:45:55.386Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:15:55 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:46:04.149Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:46:04.150Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 11:16:04 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:46:05.920Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T05:46:12.517Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:16:12 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:46:12.518Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 11:16:12 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:46:17.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:46:18.125Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-18T05:52:54.143Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T05:52:54.146Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-18T05:52:54.147Z] CLI Version:   3.16.0
+[debug] [2018-01-18T05:52:54.147Z] Platform:      win32
+[debug] [2018-01-18T05:52:54.147Z] Node Version:  v6.11.2
+[debug] [2018-01-18T05:52:54.147Z] Time:          Thu Jan 18 2018 11:22:54 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:52:54.147Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T05:52:54.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T05:52:54.162Z] > authorizing via signed-in user
+[debug] [2018-01-18T05:52:54.164Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:22:54 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:52:55.849Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:52:55.850Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 11:22:55 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:52:57.045Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T05:52:57.770Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:22:57 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:52:57.771Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 11:22:57 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:52:59.761Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:52:59.930Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-18T05:58:31.669Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T05:58:31.672Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-18T05:58:31.673Z] CLI Version:   3.16.0
+[debug] [2018-01-18T05:58:31.673Z] Platform:      win32
+[debug] [2018-01-18T05:58:31.673Z] Node Version:  v6.11.2
+[debug] [2018-01-18T05:58:31.673Z] Time:          Thu Jan 18 2018 11:28:31 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:58:31.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T05:58:31.688Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T05:58:31.688Z] > authorizing via signed-in user
+[debug] [2018-01-18T05:58:31.691Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:28:31 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:58:33.441Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:58:33.442Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 11:28:33 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:58:34.687Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T05:58:35.422Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:28:35 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:58:35.422Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 11:28:35 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T05:58:37.384Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T05:58:37.594Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-18T06:06:37.610Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T06:06:37.613Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-18T06:06:37.614Z] CLI Version:   3.16.0
+[debug] [2018-01-18T06:06:37.614Z] Platform:      win32
+[debug] [2018-01-18T06:06:37.614Z] Node Version:  v6.11.2
+[debug] [2018-01-18T06:06:37.614Z] Time:          Thu Jan 18 2018 11:36:37 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:06:37.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T06:06:37.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T06:06:37.629Z] > authorizing via signed-in user
+[debug] [2018-01-18T06:06:37.632Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:36:37 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:06:39.742Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:06:39.744Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 11:36:39 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:06:46.600Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[debug] [2018-01-18T06:06:46.604Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:36:46 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:06:49.117Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:06:49.118Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/498406814073/clients/_:getWebAppConfig  
+  
+ Thu Jan 18 2018 11:36:49 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:06:50.269Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-01-18T06:25:26.310Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T06:25:26.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-18T06:25:26.315Z] CLI Version:   3.16.0
+[debug] [2018-01-18T06:25:26.315Z] Platform:      win32
+[debug] [2018-01-18T06:25:26.315Z] Node Version:  v6.11.2
+[debug] [2018-01-18T06:25:26.316Z] Time:          Thu Jan 18 2018 11:55:26 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:25:26.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T06:25:26.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T06:25:26.433Z] > authorizing via signed-in user
+[debug] [2018-01-18T06:25:26.436Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:55:26 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:25:27.983Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:25:27.985Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 11:55:27 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:25:29.135Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T06:25:37.134Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 11:55:37 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:25:37.134Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 11:55:37 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:25:39.116Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:25:39.325Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-18T06:35:31.699Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T06:35:31.704Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions --debug
+[debug] [2018-01-18T06:35:31.705Z] CLI Version:   3.16.0
+[debug] [2018-01-18T06:35:31.705Z] Platform:      win32
+[debug] [2018-01-18T06:35:31.706Z] Node Version:  v6.11.2
+[debug] [2018-01-18T06:35:31.706Z] Time:          Thu Jan 18 2018 12:05:31 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:31.707Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T06:35:31.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T06:35:31.723Z] > authorizing via signed-in user
+[debug] [2018-01-18T06:35:31.726Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-18T06:35:31.727Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/JmA3Yf13Emn-A4qLv82S5A8T0l6o5sD2gUwpuBxIvU0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 18 2018 12:05:31 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:32.197Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:35:32.226Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 12:05:32 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:33.689Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:35:33.692Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 12:05:33 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:34.832Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T06:35:35.452Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 12:05:35 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:35.454Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 12:05:35 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:35:37.693Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:35:37.697Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
+[debug] [2018-01-18T06:38:48.567Z] ----------------------------------------------------------------------
+[debug] [2018-01-18T06:38:48.570Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hello\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-01-18T06:38:48.571Z] CLI Version:   3.16.0
+[debug] [2018-01-18T06:38:48.571Z] Platform:      win32
+[debug] [2018-01-18T06:38:48.571Z] Node Version:  v6.11.2
+[debug] [2018-01-18T06:38:48.571Z] Time:          Thu Jan 18 2018 12:08:48 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:38:48.571Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-18T06:38:48.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-18T06:38:48.586Z] > authorizing via signed-in user
+[debug] [2018-01-18T06:38:48.589Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rgcer-48afc  
+  
+ Thu Jan 18 2018 12:08:48 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:38:50.029Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:38:50.030Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rgcer-48afc/tokens  
+  
+ Thu Jan 18 2018 12:08:50 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:38:51.198Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\wamp\www\rgcer_test_app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-18T06:38:51.854Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/rgcer-48afc  
+  
+ Thu Jan 18 2018 12:08:51 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:38:51.854Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/rgcer-48afc/apiKeys  
+  
+ Thu Jan 18 2018 12:08:51 GMT+0530 (India Standard Time)
+[debug] [2018-01-18T06:38:53.680Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-18T06:38:53.884Z] <<< HTTP RESPONSE 200
+[info] +  functions: helloWorld: http://localhost:5000/rgcer-48afc/us-central1/helloWorld
